@@ -20,8 +20,9 @@ Using Virtual Environment is recommended
 
 ## Github
 
-Changes in the code
+Changes to be made
 ```
+browser.get("https://github.com/login")
 username = browser.find_element_by_name("login")
 password = browser.find_element_by_name("password")
 submit   = browser.find_element_by_name("commit")
