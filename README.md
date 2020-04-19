@@ -3,7 +3,7 @@ Login to facebook through terminal
 
 To run the script clone the repository 
 ```
-git clone 
+git clone https://github.com/hemant-taneja/Automate_Login.git
 ```
 
 and write in the cmd/powershell/terminal
