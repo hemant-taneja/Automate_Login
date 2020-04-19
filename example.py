@@ -4,12 +4,12 @@ import sys
 
 #Accessing drivers and webpage
 browser = webdriver.Firefox()
-browser.get("https://github.com/login")
+browser.get("https://facebook.com")
 
 #Finding Fields
-username = browser.find_element_by_name("login")
-password = browser.find_element_by_name("password")
-submit   = browser.find_element_by_name("commit")
+username = browser.find_element_by_name("email")
+password = browser.find_element_by_name("pass")
+submit   = browser.find_element_by_id("loginbutton")
 
 #Taking CLI params
 user = sys.argv[1]
